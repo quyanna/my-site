@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+hr {
+  border: dotted;
+  border-width: 6px 0 0 0;
+  width: 3%;
+  color: gray;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0;
+}
+
+.profile {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.profile-pic{
+  width:25%;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.intro{
+  width:50%;
+  margin: 30px auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.comp-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.design-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-pic{
+  width: 25%;
+}
+
+.contact-txt{
+  margin-bottom: 50px;
+}
+
+.contact-me{
+  margin: 40px;
+}
+.btn {
+  background: #1ec1c7;
+  background-image: -webkit-linear-gradient(top, #1ec1c7, #0f9196);
+  background-image: -moz-linear-gradient(top, #1ec1c7, #0f9196);
+  background-image: -ms-linear-gradient(top, #1ec1c7, #0f9196);
+  background-image: -o-linear-gradient(top, #1ec1c7, #0f9196);
+  background-image: linear-gradient(to bottom, #1ec1c7, #0f9196);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.creds {
+  margin: 30px 20px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+.copyright{
+  margin-top: 20px;
+  color: #eaf6f6;
+}
